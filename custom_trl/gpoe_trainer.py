@@ -8,13 +8,14 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-try:
-    # TRL >= 0.7.2
-    from trl.trainer.dpo_trainer import DPOTrainer  # type: ignore
-except Exception as e:  # pragma: no cover
-    raise ImportError(
-        "Failed to import DPOTrainer from TRL. Ensure 'trl>=0.7.2' is installed."
-    ) from e
+from trl.trainer.dpo_trainer import DPOTrainer  # type: ignore#
+#try:
+#    # TRL >= 0.7.2
+#    
+#except Exception as e:  # pragma: no cover
+#    raise ImportError(
+#        "Failed to import DPOTrainer from TRL. Ensure 'trl>=0.7.2' is installed."
+#    ) from e
 
 
 @dataclass
@@ -62,18 +63,7 @@ class GPOETrainer(DPOTrainer):
         gpoe_config: Optional[GPOEConfig] = None,
         **kwargs: Any,
     ) -> None:
-        raw_train_dataset = kwargs.pop("train_dataset", None)
-        raw_eval_dataset = kwargs.pop("eval_dataset", None)
-
-        proxy_train = _BypassDataset() if raw_train_dataset is not None else None
-        proxy_eval = _BypassDataset() if raw_eval_dataset is not None else None
-
-        super().__init__(*args, train_dataset=proxy_train, eval_dataset=proxy_eval, **kwargs)
-
-        if raw_train_dataset is not None:
-            self.train_dataset = raw_train_dataset
-        if raw_eval_dataset is not None:
-            self.eval_dataset = raw_eval_dataset
+        super().__init__(*args, **kwargs)
 
         if gpoe_config is None:
             raise ValueError("GPOETrainer requires `gpoe_config`.")
