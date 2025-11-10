@@ -31,6 +31,16 @@ class GPOEConfig:
     # compute it using the provided ref_model
 
 
+class _BypassDataset:
+    """Shim so TRL's init can call `.map`/`.with_format` without touching real datasets."""
+
+    def map(self, *args, **kwargs):
+        return self
+
+    def with_format(self, *args, **kwargs):
+        return self
+
+
 class GPOETrainer(DPOTrainer):
     """
     Generalized Product-of-Experts trainer over M LoRA experts on a single base model.
@@ -52,7 +62,18 @@ class GPOETrainer(DPOTrainer):
         gpoe_config: Optional[GPOEConfig] = None,
         **kwargs: Any,
     ) -> None:
-        super().__init__(*args, **kwargs)
+        raw_train_dataset = kwargs.pop("train_dataset", None)
+        raw_eval_dataset = kwargs.pop("eval_dataset", None)
+
+        proxy_train = _BypassDataset() if raw_train_dataset is not None else None
+        proxy_eval = _BypassDataset() if raw_eval_dataset is not None else None
+
+        super().__init__(*args, train_dataset=proxy_train, eval_dataset=proxy_eval, **kwargs)
+
+        if raw_train_dataset is not None:
+            self.train_dataset = raw_train_dataset
+        if raw_eval_dataset is not None:
+            self.eval_dataset = raw_eval_dataset
 
         if gpoe_config is None:
             raise ValueError("GPOETrainer requires `gpoe_config`.")
@@ -289,4 +310,3 @@ class GPOETrainer(DPOTrainer):
     def load_gpoe_state(cls, path: str, device: Optional[torch.device] = None) -> Dict[str, Any]:
         state = torch.load(path, map_location=device or "cpu")
         return state
-
