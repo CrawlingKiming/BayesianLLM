@@ -1,42 +1,18 @@
 from __future__ import annotations
 
 import argparse
-import json
-from pathlib import Path
 from typing import List, Optional
 
 import torch
-from torch.utils.data import Dataset
 
-from transformers import (
-    AutoModelForCausalLM,
-    AutoTokenizer,
-    TrainingArguments,
-)
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+
+from datasets import load_dataset
 
 from peft import LoraConfig, get_peft_model
 
 from custom_trl.gpoe_trainer import GPOETrainer, GPOEConfig
 from custom_trl.collators import PreferencePairCollator
-
-
-class PreferenceJSONLDataset(Dataset):
-    """Simple JSONL dataset for preference pairs."""
-
-    def __init__(self, path: str):
-        self.items = []
-        with open(path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                self.items.append(json.loads(line))
-
-    def __len__(self):
-        return len(self.items)
-
-    def __getitem__(self, idx: int):
-        return self.items[idx]
 
 
 def attach_lora_experts(
@@ -114,7 +90,17 @@ def main():
 
     model = attach_lora_experts(base_model, args.adapter_names)
 
-    train_ds = PreferenceJSONLDataset(args.train_path)
+    dataset = load_dataset(
+        "json",
+        data_files={"train": args.train_path},
+        keep_in_memory=False,
+    )
+    train_ds = dataset["train"]
+    required_fields = {"prompt", "chosen", "rejected"}
+    missing = required_fields - set(train_ds.column_names)
+    if missing:
+        raise ValueError(f"Dataset missing required fields: {sorted(missing)}")
+
     collator = PreferencePairCollator(tokenizer=tokenizer, max_length=args.max_length)
 
     training_args = TrainingArguments(
@@ -159,4 +145,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

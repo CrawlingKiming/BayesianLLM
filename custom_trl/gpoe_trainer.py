@@ -32,16 +32,6 @@ class GPOEConfig:
     # compute it using the provided ref_model
 
 
-class _BypassDataset:
-    """Shim so TRL's init can call `.map`/`.with_format` without touching real datasets."""
-
-    def map(self, *args, **kwargs):
-        return self
-
-    def with_format(self, *args, **kwargs):
-        return self
-
-
 class GPOETrainer(DPOTrainer):
     """
     Generalized Product-of-Experts trainer over M LoRA experts on a single base model.
