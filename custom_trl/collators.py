@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Dict, List
+from typing import Any, Dict, List
 
 import torch
 
@@ -56,16 +56,27 @@ class PreferencePairCollator:
         delta_refs = []
         has_delta_ref = True
 
-        for ex in batch:
-            prompt = ex.get("prompt")
-            chosen = ex.get("chosen")
-            rejected = ex.get("rejected")
-            if prompt is None or chosen is None or rejected is None:
-                raise ValueError("Examples must include 'prompt', 'chosen', 'rejected'")
+        def _from_tokenized(prefix: str, ex: Dict[str, Any]) -> Dict[str, torch.Tensor]:
+            ids = torch.tensor(ex[f"{prefix}_input_ids"], dtype=torch.long)
+            mask = torch.tensor(ex.get(f"{prefix}_attention_mask", [1] * len(ids)), dtype=torch.long)
+            raw_labels = ex.get(f"{prefix}_labels")
+            if raw_labels is None:
+                lab = ids.clone()
+            else:
+                lab = torch.tensor(raw_labels, dtype=torch.long)
+            return {"input_ids": ids, "attention_mask": mask, "labels": lab}
 
-            chosen_pairs.append(self._build_pair(prompt, chosen))
-            rejected_pairs.append(self._build_pair(prompt, rejected))
-            labels.append(int(ex.get("label", 1)))
+        for ex in batch:
+            if all(k in ex for k in ("prompt", "chosen", "rejected")):
+                chosen_pairs.append(self._build_pair(ex["prompt"], ex["chosen"]))
+                rejected_pairs.append(self._build_pair(ex["prompt"], ex["rejected"]))
+            elif "chosen_input_ids" in ex and "rejected_input_ids" in ex:
+                chosen_pairs.append(_from_tokenized("chosen", ex))
+                rejected_pairs.append(_from_tokenized("rejected", ex))
+            else:
+                raise ValueError("Examples must include either raw ('prompt','chosen','rejected') text or tokenized fields.")
+
+            labels.append(int(ex.get("label", ex.get("pair_label", 1))))
 
             if "delta_ref" in ex and ex["delta_ref"] is not None:
                 delta_refs.append(float(ex["delta_ref"]))
@@ -86,4 +97,3 @@ class PreferencePairCollator:
             batch_out["delta_ref"] = torch.tensor(delta_refs, dtype=torch.float)
 
         return batch_out
-
