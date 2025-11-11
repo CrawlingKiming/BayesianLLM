@@ -137,7 +137,13 @@ class GPOETrainer(BaseTrainer):
         }
 
     # core training step ------------------------------------------------
-    def compute_loss(self, model: nn.Module, inputs: Dict[str, Any], return_outputs: bool = False):  # type: ignore[override]
+    def compute_loss(
+        self,
+        model: nn.Module,
+        inputs: Dict[str, Any],
+        return_outputs: bool = False,
+        num_items_in_batch: Optional[int] = None,
+    ):  # type: ignore[override]
         cfg = self.gpoe_config
         fields = self._extract_pair_fields(inputs)
         c_ids, c_mask, c_labels = fields["c_ids"], fields["c_mask"], fields["c_labels"]
