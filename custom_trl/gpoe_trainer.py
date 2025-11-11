@@ -66,7 +66,15 @@ class GPOETrainer(DPOTrainer):
         gpoe_config: Optional[GPOEConfig] = None,
         **kwargs: Any,
     ) -> None:
-        super().__init__(*args, **kwargs)
+        raw_train_dataset = kwargs.pop("train_dataset", None)
+        raw_eval_dataset = kwargs.pop("eval_dataset", None)
+
+        super().__init__(*args, train_dataset=None, eval_dataset=None, **kwargs)
+
+        if raw_train_dataset is not None:
+            self.train_dataset = raw_train_dataset
+        if raw_eval_dataset is not None:
+            self.eval_dataset = raw_eval_dataset
 
         if gpoe_config is None:
             raise ValueError("GPOETrainer requires `gpoe_config`.")
