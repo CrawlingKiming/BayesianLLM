@@ -32,6 +32,19 @@ class GPOEConfig:
     # compute it using the provided ref_model
 
 
+class _GPOEPrior(nn.Module):
+    def __init__(self, num_experts: int, device: torch.device):
+        super().__init__()
+        self.mu = nn.Parameter(torch.zeros(num_experts, device=device))
+        self.L_raw = nn.Parameter(torch.zeros(num_experts, num_experts, device=device))
+
+    def build_L(self) -> torch.Tensor:
+        m = self.mu.shape[0]
+        tril = torch.tril(self.L_raw)
+        diag = F.softplus(torch.diag(tril))
+        return tril - torch.diag(torch.diag(tril)) + torch.diag(diag)
+
+
 class GPOETrainer(DPOTrainer):
     """
     Generalized Product-of-Experts trainer over M LoRA experts on a single base model.
@@ -67,9 +80,9 @@ class GPOETrainer(DPOTrainer):
 
         # Learnable Bayesian params: mu in R^M and L lower-triangular (Cholesky) with positive diag
         device = self.accelerator.device if hasattr(self, "accelerator") else self.model.device
-        self.mu = nn.Parameter(torch.zeros(m, device=device))
-        # store raw tril; build L with positive diag using softplus
-        self._L_raw = nn.Parameter(torch.zeros(m, m, device=device))
+        self.prior = _GPOEPrior(m, device)
+        # attach to model so optimizer/checkpoints track it
+        setattr(self.model, "_gpoe_prior", self.prior)
 
         # convenience cache for expert names
         self._experts: List[str] = list(self.gpoe_config.adapter_names)
@@ -80,16 +93,19 @@ class GPOETrainer(DPOTrainer):
                 "Base model must be a PEFT model with multiple LoRA adapters; `model.set_adapter(name)` is required."
             )
 
+    def get_batch_samples(self, epoch_iterator, num_batches, device=None):  # type: ignore[override]
+        """Handle Trainer APIs with or without the `device` argument."""
+        method = super().get_batch_samples  # type: ignore[attr-defined]
+        try:
+            return method(epoch_iterator, num_batches, device)  # type: ignore[misc]
+        except TypeError:
+            return method(epoch_iterator, num_batches)
+
     # ----------------------------
     # helpers
     # ----------------------------
     def _build_L(self) -> torch.Tensor:
-        m = self.mu.shape[0]
-        tril = torch.tril(self._L_raw)
-        # enforce positive diagonal using softplus
-        diag = F.softplus(torch.diag(tril))
-        L = tril - torch.diag(torch.diag(tril)) + torch.diag(diag)
-        return L
+        return self.prior.build_L()
 
     @staticmethod
     def _shift_logits_and_labels(logits: torch.Tensor, labels: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
@@ -211,7 +227,7 @@ class GPOETrainer(DPOTrainer):
         phi = torch.stack(d_list, dim=-1)
 
         # Sample weights via reparameterization
-        mu = self.mu  # (M,)
+        mu = self.prior.mu  # (M,)
         L = self._build_L()  # (M, M)
         eps = torch.randn(S, m, device=device)
         eta = mu.unsqueeze(0) + torch.matmul(eps, L.T)  # (S, M)
@@ -275,16 +291,14 @@ class GPOETrainer(DPOTrainer):
     # ----------------------------
     def save_model(self, output_dir: Optional[str] = None, _internal_call: bool = False):  # type: ignore[override]
         super().save_model(output_dir=output_dir, _internal_call=_internal_call)
-        # Persist mu and L
-        if output_dir is None:
-            output_dir = self.args.output_dir
+        target_dir = output_dir or self.args.output_dir
         state = {
-            "mu": self.mu.detach().cpu(),
-            "L_raw": self._L_raw.detach().cpu(),
+            "mu": self.prior.mu.detach().cpu(),
+            "L_raw": self.prior.L_raw.detach().cpu(),
             "adapter_names": self._experts,
             "gpoe_config": self.gpoe_config.__dict__,
         }
-        torch.save(state, f"{output_dir}/gpoe_state.pt")
+        torch.save(state, f"{target_dir}/gpoe_state.pt")
 
     @classmethod
     def load_gpoe_state(cls, path: str, device: Optional[torch.device] = None) -> Dict[str, Any]:

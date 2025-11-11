@@ -13,7 +13,7 @@ cd "$ROOT_DIR"
 ENV_NAME=${ENV_NAME:-gpoe}
 DATA_DIR="data/UF-P-2"
 TRAIN_JSONL="$DATA_DIR/train.jsonl"
-MODEL_NAME=${MODEL_NAME:-TinyLlama/TinyLlama-1.1B-Chat-v1.0} 
+MODEL_NAME=${MODEL_NAME:-meta-llama/Llama-3.2-1B}
 REF_MODEL_NAME=${REF_MODEL_NAME:-$MODEL_NAME}
 OUTPUT_DIR=${OUTPUT_DIR:-outputs/gpoe_llama3_ufp2}
 ADAPTER1=${ADAPTER1:-expert_helpfulness}
@@ -36,6 +36,7 @@ conda run -n "$ENV_NAME" python examples/train_gpoe.py \
   --num_experts 2 \
   --adapter_names "$ADAPTER1" "$ADAPTER2" \
   --per_device_train_batch_size 1 \
+  --grad_accum_steps 4 \
   --mc_samples 4 \
   --beta 0.5 \
   --lambda_offdiag 0.5 \

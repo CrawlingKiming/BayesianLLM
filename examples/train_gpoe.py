@@ -5,11 +5,13 @@ from typing import List, Optional
 
 import torch
 
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from trl.trainer.dpo_config import DPOConfig
 
 from datasets import load_dataset
 
 from peft import LoraConfig, get_peft_model
+
 
 from custom_trl.gpoe_trainer import GPOETrainer, GPOEConfig
 from custom_trl.collators import PreferencePairCollator
@@ -70,6 +72,7 @@ def parse_args():
     parser.add_argument("--save_steps", type=int, default=100)
     parser.add_argument("--logging_steps", type=int, default=10)
     parser.add_argument("--max_length", type=int, default=1024)
+    parser.add_argument("--grad_accum_steps", type=int, default=1)
     parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
 
@@ -103,18 +106,21 @@ def main():
 
     collator = PreferencePairCollator(tokenizer=tokenizer, max_length=args.max_length)
 
-    training_args = TrainingArguments(
+    training_args = DPOConfig(
         output_dir=args.output_dir,
         per_device_train_batch_size=args.per_device_train_batch_size,
         learning_rate=args.learning_rate,
         max_steps=args.max_steps,
         save_steps=args.save_steps,
         logging_steps=args.logging_steps,
-        gradient_accumulation_steps=1,
+        gradient_accumulation_steps=args.grad_accum_steps,
         remove_unused_columns=False,
         fp16=torch.cuda.is_available(),
-        report_to=["none"],
+        report_to=["tensorboard"],
         seed=args.seed,
+        beta=args.beta,
+        max_length=args.max_length,
+        pad_token=tokenizer.pad_token,
     )
 
     gpoe_cfg = GPOEConfig(
