@@ -1,0 +1,5371 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 0.008804987144718768,
+  "eval_steps": 500,
+  "global_step": 500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "G_offdiag_fro": 8.347209035086678e-10,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.4837949683650176e-19,
+      "loss_pp": 31.74557876586914,
+      "mu_norm": 0.0,
+      "step": 0
+    },
+    {
+      "G_offdiag_fro": 2.0162742497939313e-17,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.032680902653727e-34,
+      "loss_pp": 83.75518035888672,
+      "mu_norm": 0.0,
+      "step": 1
+    },
+    {
+      "G_offdiag_fro": 2.090658618447705e-10,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.1854266880015845e-20,
+      "loss_pp": 59.8100471496582,
+      "mu_norm": 0.0,
+      "step": 2
+    },
+    {
+      "G_offdiag_fro": 2.2460351767966573e-22,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.5223372357846707e-44,
+      "loss_pp": 29.490516662597656,
+      "mu_norm": 0.0,
+      "step": 3
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 164.2027587890625,
+      "mu_norm": 0.0,
+      "step": 4
+    },
+    {
+      "G_offdiag_fro": 0.12115352600812912,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.007339088711887598,
+      "loss_pp": 15.873058319091797,
+      "mu_norm": 0.0,
+      "step": 5
+    },
+    {
+      "G_offdiag_fro": 0.00017297259182669222,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.4959759653265792e-08,
+      "loss_pp": 23.31020736694336,
+      "mu_norm": 0.0,
+      "step": 6
+    },
+    {
+      "G_offdiag_fro": 9.311025935725484e-14,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 4.3347602444963386e-27,
+      "loss_pp": 177.20782470703125,
+      "mu_norm": 0.0,
+      "step": 7
+    },
+    {
+      "G_offdiag_fro": 2.1916361220064573e-05,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.4016344468691386e-10,
+      "loss_pp": 132.49554443359375,
+      "mu_norm": 0.0,
+      "step": 8
+    },
+    {
+      "G_offdiag_fro": 1.1757203211004708e-08,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 6.911590987992568e-17,
+      "loss_pp": 12.811490058898926,
+      "mu_norm": 0.0,
+      "step": 9
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.994e-05,
+      "loss": 73.071,
+      "step": 10
+    },
+    {
+      "G_offdiag_fro": 0.006673912517726421,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.2270554836723022e-05,
+      "loss_pp": 12.068592071533203,
+      "mu_norm": 0.0,
+      "step": 10
+    },
+    {
+      "G_offdiag_fro": 0.00024577692965976894,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.020314665036494e-08,
+      "loss_pp": 7.283218860626221,
+      "mu_norm": 0.0,
+      "step": 11
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 77.55260467529297,
+      "mu_norm": 0.0,
+      "step": 12
+    },
+    {
+      "G_offdiag_fro": 4.864268710047526e-12,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.1830555673069471e-23,
+      "loss_pp": 84.57024383544922,
+      "mu_norm": 0.0,
+      "step": 13
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 215.7154083251953,
+      "mu_norm": 0.0,
+      "step": 14
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 78.63740539550781,
+      "mu_norm": 0.0,
+      "step": 15
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 30.568073272705078,
+      "mu_norm": 0.0,
+      "step": 16
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 74.59625244140625,
+      "mu_norm": 0.0,
+      "step": 17
+    },
+    {
+      "G_offdiag_fro": 7.486784133018432e-23,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.802596928649634e-45,
+      "loss_pp": 211.2606964111328,
+      "mu_norm": 0.0,
+      "step": 18
+    },
+    {
+      "G_offdiag_fro": 0.0004236607637722045,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 8.974422627261447e-08,
+      "loss_pp": 2.384185791015625e-07,
+      "mu_norm": 0.0,
+      "step": 19
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.991e-05,
+      "loss": 79.2253,
+      "step": 20
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 128.5567626953125,
+      "mu_norm": 0.0,
+      "step": 20
+    },
+    {
+      "G_offdiag_fro": 2.0032999515533447,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.0066051483154297,
+      "loss_pp": 0.29929566383361816,
+      "mu_norm": 0.0,
+      "step": 21
+    },
+    {
+      "G_offdiag_fro": 0.13489565253257751,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.009098418988287449,
+      "loss_pp": 0.00041413307189941406,
+      "mu_norm": 0.0,
+      "step": 22
+    },
+    {
+      "G_offdiag_fro": 9.817799351274914e-12,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 4.8194595568369215e-23,
+      "loss_pp": 185.340087890625,
+      "mu_norm": 0.0,
+      "step": 23
+    },
+    {
+      "G_offdiag_fro": 8.817073103273287e-05,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.887039135008763e-09,
+      "loss_pp": 104.2148666381836,
+      "mu_norm": 0.0,
+      "step": 24
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 73.90226745605469,
+      "mu_norm": 0.0,
+      "step": 25
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 68.20799255371094,
+      "mu_norm": 0.0,
+      "step": 26
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 186.4527587890625,
+      "mu_norm": 0.0,
+      "step": 27
+    },
+    {
+      "G_offdiag_fro": 0.00015800289111211896,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.248245773410872e-08,
+      "loss_pp": 38.925865173339844,
+      "mu_norm": 0.0,
+      "step": 28
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 190.81387329101562,
+      "mu_norm": 0.0,
+      "step": 29
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.985e-05,
+      "loss": 97.873,
+      "step": 30
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 111.3437728881836,
+      "mu_norm": 0.0,
+      "step": 30
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 58.28779220581055,
+      "mu_norm": 0.0,
+      "step": 31
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 60.5964241027832,
+      "mu_norm": 0.0,
+      "step": 32
+    },
+    {
+      "G_offdiag_fro": 1.230654433763569e-16,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 7.572552240412438e-33,
+      "loss_pp": 22.62688446044922,
+      "mu_norm": 0.0,
+      "step": 33
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 34
+    },
+    {
+      "G_offdiag_fro": 0.36519941687583923,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.06668530404567719,
+      "loss_pp": 0.0021355152130126953,
+      "mu_norm": 0.0,
+      "step": 35
+    },
+    {
+      "G_offdiag_fro": 0.00016827188665047288,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.4157714112172926e-08,
+      "loss_pp": 54.925968170166016,
+      "mu_norm": 0.0,
+      "step": 36
+    },
+    {
+      "G_offdiag_fro": 0.19697345793247223,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.01939927227795124,
+      "loss_pp": 102.13175964355469,
+      "mu_norm": 0.0,
+      "step": 37
+    },
+    {
+      "G_offdiag_fro": 7.67402751225658e-18,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.9445350016521704e-35,
+      "loss_pp": 207.73887634277344,
+      "mu_norm": 0.0,
+      "step": 38
+    },
+    {
+      "G_offdiag_fro": 5.724809071239179e-09,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.6386719249916396e-17,
+      "loss_pp": 35.659576416015625,
+      "mu_norm": 0.0,
+      "step": 39
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": 25.32829475402832,
+      "learning_rate": 2.979e-05,
+      "loss": 65.3399,
+      "step": 40
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 156.75827026367188,
+      "mu_norm": 0.0,
+      "step": 40
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 177.94351196289062,
+      "mu_norm": 0.0,
+      "step": 41
+    },
+    {
+      "G_offdiag_fro": 3.1939654832058295e-07,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 5.100707386302382e-14,
+      "loss_pp": 54.064395904541016,
+      "mu_norm": 0.0,
+      "step": 42
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 151.4901123046875,
+      "mu_norm": 0.0,
+      "step": 43
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 81.94094848632812,
+      "mu_norm": 0.0,
+      "step": 44
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 117.05348205566406,
+      "mu_norm": 0.0,
+      "step": 45
+    },
+    {
+      "G_offdiag_fro": 2.2197146168616146e-19,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.463566217671502e-38,
+      "loss_pp": 400.84674072265625,
+      "mu_norm": 0.0,
+      "step": 46
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 47
+    },
+    {
+      "G_offdiag_fro": 3.3890636596760306e-19,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 5.742875915574267e-38,
+      "loss_pp": 25.693927764892578,
+      "mu_norm": 0.0,
+      "step": 48
+    },
+    {
+      "G_offdiag_fro": 5.048181382465156e-13,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.2742068376011407e-25,
+      "loss_pp": 96.36552429199219,
+      "mu_norm": 0.0,
+      "step": 49
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.976e-05,
+      "loss": 126.2157,
+      "step": 50
+    },
+    {
+      "G_offdiag_fro": 0.5090030431747437,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.1295420527458191,
+      "loss_pp": 22.15609359741211,
+      "mu_norm": 0.0,
+      "step": 50
+    },
+    {
+      "G_offdiag_fro": 0.04812644422054291,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0011580772697925568,
+      "loss_pp": 27.189311981201172,
+      "mu_norm": 0.0,
+      "step": 51
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 142.2232208251953,
+      "mu_norm": 0.0,
+      "step": 52
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 106.21820831298828,
+      "mu_norm": 0.0,
+      "step": 53
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 96.99915313720703,
+      "mu_norm": 0.0,
+      "step": 54
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 55
+    },
+    {
+      "G_offdiag_fro": 6.468616367415179e-20,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.0921498176246665e-39,
+      "loss_pp": 90.60302734375,
+      "mu_norm": 0.0,
+      "step": 56
+    },
+    {
+      "G_offdiag_fro": 0.02737695910036564,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0003747489536181092,
+      "loss_pp": 26.339859008789062,
+      "mu_norm": 0.0,
+      "step": 57
+    },
+    {
+      "G_offdiag_fro": 0.005593382753431797,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.5642965081497096e-05,
+      "loss_pp": 6.022415637969971,
+      "mu_norm": 0.0,
+      "step": 58
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 146.70205688476562,
+      "mu_norm": 0.0,
+      "step": 59
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.964e-05,
+      "loss": 66.4584,
+      "step": 60
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 95.943603515625,
+      "mu_norm": 0.0,
+      "step": 60
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 101.19683837890625,
+      "mu_norm": 0.0,
+      "step": 61
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 105.50375366210938,
+      "mu_norm": 0.0,
+      "step": 62
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 63
+    },
+    {
+      "G_offdiag_fro": 0.0796368345618248,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.003171012969687581,
+      "loss_pp": 63.87531280517578,
+      "mu_norm": 0.0,
+      "step": 64
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 31.59420394897461,
+      "mu_norm": 0.0,
+      "step": 65
+    },
+    {
+      "G_offdiag_fro": 0.00017959263641387224,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.612675859519186e-08,
+      "loss_pp": 41.314186096191406,
+      "mu_norm": 0.0,
+      "step": 66
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 141.7174530029297,
+      "mu_norm": 0.0,
+      "step": 67
+    },
+    {
+      "G_offdiag_fro": 5.7313933155000996e-08,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.642443365659069e-15,
+      "loss_pp": 66.52944946289062,
+      "mu_norm": 0.0,
+      "step": 68
+    },
+    {
+      "G_offdiag_fro": 4.628715894730226e-14,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.0712504796132875e-27,
+      "loss_pp": 187.3446502685547,
+      "mu_norm": 0.0,
+      "step": 69
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.961e-05,
+      "loss": 83.5023,
+      "step": 70
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 111.45978546142578,
+      "mu_norm": 0.0,
+      "step": 70
+    },
+    {
+      "G_offdiag_fro": 4.1684649690132547e-22,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 8.688050478813866e-44,
+      "loss_pp": 29.1734619140625,
+      "mu_norm": 0.0,
+      "step": 71
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 128.41358947753906,
+      "mu_norm": 0.0,
+      "step": 72
+    },
+    {
+      "G_offdiag_fro": 0.0031091393902897835,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 4.833374077861663e-06,
+      "loss_pp": 42.34059143066406,
+      "mu_norm": 0.0,
+      "step": 73
+    },
+    {
+      "G_offdiag_fro": 1.5717126205524274e-15,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.2351402507366833e-30,
+      "loss_pp": 71.28810119628906,
+      "mu_norm": 0.0,
+      "step": 74
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 75
+    },
+    {
+      "G_offdiag_fro": 1.6745948093368872e-14,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.4021338144472671e-28,
+      "loss_pp": 20.046138763427734,
+      "mu_norm": 0.0,
+      "step": 76
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 98.20332336425781,
+      "mu_norm": 0.0,
+      "step": 77
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 65.87935638427734,
+      "mu_norm": 0.0,
+      "step": 78
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 79
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.958e-05,
+      "loss": 56.6804,
+      "step": 80
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 203.99163818359375,
+      "mu_norm": 0.0,
+      "step": 80
+    },
+    {
+      "G_offdiag_fro": 3.964306046112679e-15,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 7.85786037694176e-30,
+      "loss_pp": 20.777984619140625,
+      "mu_norm": 0.0,
+      "step": 81
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 358.9918518066406,
+      "mu_norm": 0.0,
+      "step": 82
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 83
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 127.89031219482422,
+      "mu_norm": 0.0,
+      "step": 84
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 85
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 215.12841796875,
+      "mu_norm": 0.0,
+      "step": 86
+    },
+    {
+      "G_offdiag_fro": 0.0010737618431448936,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 5.764822503806499e-07,
+      "loss_pp": 75.50103759765625,
+      "mu_norm": 0.0,
+      "step": 87
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 168.32374572753906,
+      "mu_norm": 0.0,
+      "step": 88
+    },
+    {
+      "G_offdiag_fro": 1.1818598183443996e-11,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 6.983963560941835e-23,
+      "loss_pp": 16.570528030395508,
+      "mu_norm": 0.0,
+      "step": 89
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.958e-05,
+      "loss": 118.7176,
+      "step": 90
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 431.09307861328125,
+      "mu_norm": 0.0,
+      "step": 90
+    },
+    {
+      "G_offdiag_fro": 0.035233765840530396,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0006207091500982642,
+      "loss_pp": 198.94155883789062,
+      "mu_norm": 0.0,
+      "step": 91
+    },
+    {
+      "G_offdiag_fro": 0.010213575325906277,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 5.2158557082293555e-05,
+      "loss_pp": 21.150888442993164,
+      "mu_norm": 0.0,
+      "step": 92
+    },
+    {
+      "G_offdiag_fro": 8.781275970583578e-19,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.855540217806948e-37,
+      "loss_pp": 107.52772521972656,
+      "mu_norm": 0.0,
+      "step": 93
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 46.74951171875,
+      "mu_norm": 0.0,
+      "step": 94
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 255.13951110839844,
+      "mu_norm": 0.0,
+      "step": 95
+    },
+    {
+      "G_offdiag_fro": 0.6242287755012512,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.1948307752609253,
+      "loss_pp": 16.83384132385254,
+      "mu_norm": 0.0,
+      "step": 96
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 81.58860778808594,
+      "mu_norm": 0.0,
+      "step": 97
+    },
+    {
+      "G_offdiag_fro": 1.629262089729309,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.3272475004196167,
+      "loss_pp": 0.02703261375427246,
+      "mu_norm": 0.0,
+      "step": 98
+    },
+    {
+      "G_offdiag_fro": 9.56635776674375e-05,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 4.575760215175251e-09,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 99
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.9520000000000002e-05,
+      "loss": 116.0574,
+      "step": 100
+    },
+    {
+      "G_offdiag_fro": 2.394056309640291e-06,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.865752990813264e-12,
+      "loss_pp": 0.3470562696456909,
+      "mu_norm": 0.0,
+      "step": 100
+    },
+    {
+      "G_offdiag_fro": 1.0891293287277222,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.5931013822555542,
+      "loss_pp": 37.89427185058594,
+      "mu_norm": 0.0,
+      "step": 101
+    },
+    {
+      "G_offdiag_fro": 2.6819870471954346,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.596527338027954,
+      "loss_pp": 167.2052764892578,
+      "mu_norm": 0.0,
+      "step": 102
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 103
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 267.4504699707031,
+      "mu_norm": 0.0,
+      "step": 104
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 71.93177032470703,
+      "mu_norm": 0.0,
+      "step": 105
+    },
+    {
+      "G_offdiag_fro": 4.256149977539727e-15,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 9.057405530260968e-30,
+      "loss_pp": 78.84498596191406,
+      "mu_norm": 0.0,
+      "step": 106
+    },
+    {
+      "G_offdiag_fro": 1.3297464359826854e-14,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 8.841128261867866e-29,
+      "loss_pp": 20.166629791259766,
+      "mu_norm": 0.0,
+      "step": 107
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 79.30326843261719,
+      "mu_norm": 0.0,
+      "step": 108
+    },
+    {
+      "G_offdiag_fro": 0.0018292966997250915,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.6731631831135019e-06,
+      "loss_pp": 78.833984375,
+      "mu_norm": 0.0,
+      "step": 109
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.949e-05,
+      "loss": 80.6167,
+      "step": 110
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 165.29051208496094,
+      "mu_norm": 0.0,
+      "step": 110
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 48.974517822265625,
+      "mu_norm": 0.0,
+      "step": 111
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 50.13367462158203,
+      "mu_norm": 0.0,
+      "step": 112
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 169.5861053466797,
+      "mu_norm": 0.0,
+      "step": 113
+    },
+    {
+      "G_offdiag_fro": 8.399241124834589e-08,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.5273624062056533e-15,
+      "loss_pp": 75.99442291259766,
+      "mu_norm": 0.0,
+      "step": 114
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 143.96865844726562,
+      "mu_norm": 0.0,
+      "step": 115
+    },
+    {
+      "G_offdiag_fro": 1.4722863645739457e-17,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.0838134826809523e-34,
+      "loss_pp": 23.73739242553711,
+      "mu_norm": 0.0,
+      "step": 116
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 117.33724212646484,
+      "mu_norm": 0.0,
+      "step": 117
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 130.37374877929688,
+      "mu_norm": 0.0,
+      "step": 118
+    },
+    {
+      "G_offdiag_fro": 0.47223490476608276,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.11150290817022324,
+      "loss_pp": 101.5567626953125,
+      "mu_norm": 0.0,
+      "step": 119
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.949e-05,
+      "loss": 102.7064,
+      "step": 120
+    },
+    {
+      "G_offdiag_fro": 0.1755395084619522,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.015407059341669083,
+      "loss_pp": 2.4429235458374023,
+      "mu_norm": 0.0,
+      "step": 120
+    },
+    {
+      "G_offdiag_fro": 0.8041044473648071,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.32329198718070984,
+      "loss_pp": 38.836246490478516,
+      "mu_norm": 0.0,
+      "step": 121
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 75.05677795410156,
+      "mu_norm": 0.0,
+      "step": 122
+    },
+    {
+      "G_offdiag_fro": 0.10037141293287277,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.005037210416048765,
+      "loss_pp": 6.276148796081543,
+      "mu_norm": 0.0,
+      "step": 123
+    },
+    {
+      "G_offdiag_fro": 5.024819374084473,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 12.624403953552246,
+      "loss_pp": 0.15354156494140625,
+      "mu_norm": 0.0,
+      "step": 124
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 81.9239273071289,
+      "mu_norm": 0.0,
+      "step": 125
+    },
+    {
+      "G_offdiag_fro": 0.00147583510261029,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.0890446446865099e-06,
+      "loss_pp": 32.4998779296875,
+      "mu_norm": 0.0,
+      "step": 126
+    },
+    {
+      "G_offdiag_fro": 3.173521889721087e-08,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 5.035620400547472e-16,
+      "loss_pp": 208.4640350341797,
+      "mu_norm": 0.0,
+      "step": 127
+    },
+    {
+      "G_offdiag_fro": 2.08531876211282e-08,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.1742771949712374e-16,
+      "loss_pp": 94.69440460205078,
+      "mu_norm": 0.0,
+      "step": 128
+    },
+    {
+      "G_offdiag_fro": 4.391490426511324e-14,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 9.642593897092406e-28,
+      "loss_pp": 218.23448181152344,
+      "mu_norm": 0.0,
+      "step": 129
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.94e-05,
+      "loss": 77.1551,
+      "step": 130
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 70.8390884399414,
+      "mu_norm": 0.0,
+      "step": 130
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 41.62527847290039,
+      "mu_norm": 0.0,
+      "step": 131
+    },
+    {
+      "G_offdiag_fro": 1.895414925456862e-06,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.7962987867992108e-12,
+      "loss_pp": 187.63479614257812,
+      "mu_norm": 0.0,
+      "step": 132
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 215.08822631835938,
+      "mu_norm": 0.0,
+      "step": 133
+    },
+    {
+      "G_offdiag_fro": 0.00028498194296844304,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 4.06073539238605e-08,
+      "loss_pp": 7.2344770431518555,
+      "mu_norm": 0.0,
+      "step": 134
+    },
+    {
+      "G_offdiag_fro": 1.49708027625461e-17,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.1206247081665513e-34,
+      "loss_pp": 74.71258544921875,
+      "mu_norm": 0.0,
+      "step": 135
+    },
+    {
+      "G_offdiag_fro": 0.1437080204486847,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.010325998067855835,
+      "loss_pp": 17.743412017822266,
+      "mu_norm": 0.0,
+      "step": 136
+    },
+    {
+      "G_offdiag_fro": 2.4365326423136935e-10,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 2.968345706082209e-20,
+      "loss_pp": 14.967676162719727,
+      "mu_norm": 0.0,
+      "step": 137
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 134.92727661132812,
+      "mu_norm": 0.0,
+      "step": 138
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 75.74838256835938,
+      "mu_norm": 0.0,
+      "step": 139
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.9370000000000002e-05,
+      "loss": 84.0531,
+      "step": 140
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 162.60671997070312,
+      "mu_norm": 0.0,
+      "step": 140
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 185.35995483398438,
+      "mu_norm": 0.0,
+      "step": 141
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 186.10324096679688,
+      "mu_norm": 0.0,
+      "step": 142
+    },
+    {
+      "G_offdiag_fro": 1.3902057283132763e-10,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 9.66335898377245e-21,
+      "loss_pp": 192.96083068847656,
+      "mu_norm": 0.0,
+      "step": 143
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 125.92525482177734,
+      "mu_norm": 0.0,
+      "step": 144
+    },
+    {
+      "G_offdiag_fro": 3.792969226837158,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 7.193307876586914,
+      "loss_pp": 25.818017959594727,
+      "mu_norm": 0.0,
+      "step": 145
+    },
+    {
+      "G_offdiag_fro": 1.0828851704225428e-11,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 5.86320110499048e-23,
+      "loss_pp": 219.69329833984375,
+      "mu_norm": 0.0,
+      "step": 146
+    },
+    {
+      "G_offdiag_fro": 8.862112432783675e-11,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.9268517421944004e-21,
+      "loss_pp": 100.72510528564453,
+      "mu_norm": 0.0,
+      "step": 147
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 115.21285247802734,
+      "mu_norm": 0.0,
+      "step": 148
+    },
+    {
+      "G_offdiag_fro": 0.014579322189092636,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.00010627831215970218,
+      "loss_pp": 5.077223777770996,
+      "mu_norm": 0.0,
+      "step": 149
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": 0.0,
+      "learning_rate": 2.931e-05,
+      "loss": 132.6676,
+      "step": 150
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 96.88375091552734,
+      "mu_norm": 0.0,
+      "step": 150
+    },
+    {
+      "G_offdiag_fro": 1.0334323644638062,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.5339912176132202,
+      "loss_pp": 55.01808166503906,
+      "mu_norm": 0.0,
+      "step": 151
+    },
+    {
+      "G_offdiag_fro": 0.0302500631660223,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0004575331404339522,
+      "loss_pp": 4.455971717834473,
+      "mu_norm": 0.0,
+      "step": 152
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 367.99652099609375,
+      "mu_norm": 0.0,
+      "step": 153
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 95.35310363769531,
+      "mu_norm": 0.0,
+      "step": 154
+    },
+    {
+      "G_offdiag_fro": 0.0025643636472523212,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 3.2879802347451914e-06,
+      "loss_pp": 5.87997579574585,
+      "mu_norm": 0.0,
+      "step": 155
+    },
+    {
+      "G_offdiag_fro": 0.0001105236224248074,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 6.107735206484222e-09,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 156
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": -0.0,
+      "mu_norm": 0.0,
+      "step": 157
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 41.149932861328125,
+      "mu_norm": 0.0,
+      "step": 158
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 143.35337829589844,
+      "mu_norm": 0.0,
+      "step": 159
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.931e-05,
+      "loss": 81.0625,
+      "step": 160
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 155.38352966308594,
+      "mu_norm": 0.0,
+      "step": 160
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 109.17210388183594,
+      "mu_norm": 0.0,
+      "step": 161
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 179.42840576171875,
+      "mu_norm": 0.0,
+      "step": 162
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 247.69387817382812,
+      "mu_norm": 0.0,
+      "step": 163
+    },
+    {
+      "G_offdiag_fro": 6.299142569539549e-20,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 1.9839597670895403e-39,
+      "loss_pp": 200.04795837402344,
+      "mu_norm": 0.0,
+      "step": 164
+    },
+    {
+      "G_offdiag_fro": 0.43368104100227356,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.09403961896896362,
+      "loss_pp": 2.3817903995513916,
+      "mu_norm": 0.0,
+      "step": 165
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 163.55548095703125,
+      "mu_norm": 0.0,
+      "step": 166
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 121.23884582519531,
+      "mu_norm": 0.0,
+      "step": 167
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 176.31211853027344,
+      "mu_norm": 0.0,
+      "step": 168
+    },
+    {
+      "G_offdiag_fro": 0.0,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.0,
+      "loss_pp": 253.55995178222656,
+      "mu_norm": 0.0,
+      "step": 169
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.931e-05,
+      "loss": 160.8868,
+      "step": 170
+    },
+    {
+      "G_offdiag_fro": 1.1767090559005737,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 0.6923221349716187,
+      "loss_pp": 57.9771614074707,
+      "mu_norm": 0.0,
+      "step": 170
+    },
+    {
+      "G_offdiag_fro": 0.0011922373669221997,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": 7.107149713192484e-07,
+      "loss_pp": 36.05167007446289,
+      "mu_norm": 0.0,
+      "step": 171
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 172
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 173
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 174
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 175
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 176
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 177
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 178
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 179
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 34.7311,
+      "step": 180
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 180
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 181
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 182
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 183
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 184
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 185
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 186
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 187
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 188
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 189
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 190
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 190
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 191
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 192
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 193
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 194
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 195
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 196
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 197
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 198
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 199
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 200
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 200
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 201
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 202
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 203
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 204
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 205
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 206
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 207
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 208
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 209
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 210
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 210
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 211
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 212
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 213
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 214
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 215
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 216
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 217
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 218
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 219
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 220
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 220
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 221
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 222
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 223
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 224
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 225
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 226
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 227
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 228
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 229
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 230
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 230
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 231
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 232
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 233
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 234
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 235
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 236
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 237
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 238
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 239
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 240
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 240
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 241
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 242
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 243
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 244
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 245
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 246
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 247
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 248
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 249
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 250
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 250
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 251
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 252
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 253
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 254
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 255
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 256
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 257
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 258
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 259
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 260
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 260
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 261
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 262
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 263
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 264
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 265
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 266
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 267
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 268
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 269
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 270
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 270
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 271
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 272
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 273
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 274
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 275
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 276
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 277
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 278
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 279
+    },
+    {
+      "epoch": 0.0,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 280
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 280
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 281
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 282
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.0,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 283
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 284
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 285
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 286
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 287
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 288
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 289
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 290
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 290
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 291
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 292
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 293
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 294
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 295
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 296
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 297
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 298
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 299
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 300
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 300
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 301
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 302
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 303
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 304
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 305
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 306
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 307
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 308
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 309
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 310
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 310
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 311
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 312
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 313
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 314
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 315
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 316
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 317
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 318
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 319
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 320
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 320
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 321
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 322
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 323
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 324
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 325
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 326
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 327
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 328
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 329
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 330
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 330
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 331
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 332
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 333
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 334
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 335
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 336
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 337
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 338
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 339
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 340
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 340
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 341
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 342
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 343
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 344
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 345
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 346
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 347
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 348
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 349
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 350
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 350
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 351
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 352
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 353
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 354
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 355
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 356
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 357
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 358
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 359
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 360
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 360
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 361
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 362
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 363
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 364
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 365
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 366
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 367
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 368
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 369
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 370
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 370
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 371
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 372
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 373
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 374
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 375
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 376
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 377
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 378
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 379
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 380
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 380
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 381
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 382
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 383
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 384
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 385
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 386
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 387
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 388
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 389
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 390
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 390
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 391
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 392
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 393
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 394
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 395
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 396
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 397
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 398
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 399
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 400
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 400
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 401
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 402
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 403
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 404
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 405
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 406
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 407
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 408
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 409
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 410
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 410
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 411
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 412
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 413
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 414
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 415
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 416
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 417
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 418
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 419
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 420
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 420
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 421
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 422
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 423
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 424
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 425
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 426
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 427
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 428
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 429
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 430
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 430
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 431
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 432
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 433
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 434
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 435
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 436
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 437
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 438
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 439
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 440
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 440
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 441
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 442
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 443
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 444
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 445
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 446
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 447
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 448
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 449
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 450
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 450
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 451
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 452
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 453
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 454
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 455
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 456
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 457
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 458
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 459
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 460
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 460
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 461
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 462
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 463
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 464
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 465
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 466
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 467
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 468
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 469
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 470
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 470
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 471
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 472
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 473
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 474
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 475
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 476
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 477
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 478
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 479
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 480
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 480
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 481
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 482
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 483
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 484
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 485
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 486
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 487
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 488
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 489
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 490
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 490
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 491
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 492
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 493
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 494
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 495
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 496
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 497
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 498
+    },
+    {
+      "G_offdiag_fro": NaN,
+      "L_diag_mean": 0.6931471824645996,
+      "epoch": 0.01,
+      "loss_hyp": 0.0,
+      "loss_offdiag": NaN,
+      "loss_pp": NaN,
+      "mu_norm": 0.0,
+      "step": 499
+    },
+    {
+      "epoch": 0.01,
+      "grad_norm": NaN,
+      "learning_rate": 2.928e-05,
+      "loss": 0.0,
+      "step": 500
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 1000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 0.0,
+  "train_batch_size": 2,
+  "trial_name": null,
+  "trial_params": null
+}

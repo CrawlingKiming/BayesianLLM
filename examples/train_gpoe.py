@@ -141,7 +141,7 @@ def main():
         train_dataset=train_ds,
         eval_dataset=None,
         data_collator=collator,
-        tokenizer=tokenizer,
+        processing_class=tokenizer, 
         gpoe_config=gpoe_cfg,
     )
 

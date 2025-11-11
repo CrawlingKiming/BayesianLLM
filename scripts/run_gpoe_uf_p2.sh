@@ -3,6 +3,7 @@ HF_ROOT="/hpc/group/laberlabs/dc430/BayesianLLM/.cache/huggingface"
 export HF_HOME="$HF_ROOT"
 export TRANSFORMERS_CACHE="$HF_ROOT/transformers"
 export HF_DATASETS_CACHE="$HF_ROOT/datasets"
+export HUGGINGFACE_HUB_TOKEN="$HF_TOKEN"
 export PYTHONPATH="$ROOT_DIR:${PYTHONPATH:-}"
 set -euo pipefail
 
